@@ -3,3 +3,4 @@
 
 * 1.Two Sum
 * 977.Squares of a Sorted Array
+* 929.Unique Email Addresses
