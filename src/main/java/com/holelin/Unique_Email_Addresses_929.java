@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * ClassName: UniqueEmailAddresses
+ * ClassName: Unique_Email_Addresses_929
  * Every email consists of a local name and a domain name, separated by the @ sign.
  * <p>
  * For example, in alice@leetcode.com, alice is the local name, and leetcode.com is the domain name.
@@ -31,7 +31,7 @@ import java.util.Set;
  * @date 2019/1/20
  */
 
-public class UniqueEmailAddresses {
+public class Unique_Email_Addresses_929 {
 
     public static int numUniqueEmails(String[] emails) {
         Set<String> set = new HashSet<>();

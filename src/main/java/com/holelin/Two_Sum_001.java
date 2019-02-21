@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 /**
- * ClassName: TwoSum
+ * ClassName: Two_Sum_001
  * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
  * You may assume that each input would have exactly one solution, and you may not use the same element twice.
  * Example:
@@ -18,7 +18,7 @@ import java.util.HashMap;
  * @version 1.0
  * @date 2019/1/20
  */
-public class TwoSum {
+public class Two_Sum_001 {
     public static int[] twoSum(int[] nums, int target) {
         // Solution1. 暴力求解
         long startTime = System.nanoTime();

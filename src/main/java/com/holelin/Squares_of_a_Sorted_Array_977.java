@@ -3,7 +3,7 @@ package com.holelin;
 import java.util.Arrays;
 
 /**
- * ClassName: 977.SquaresOfASortedArray
+ * ClassName: 977.Squares_of_a_Sorted_Array_977
  * Given an array of integers A sorted in non-decreasing order, return an array of the squares of each number, also in sorted non-decreasing order.
  * <p>
  * Example 1:
@@ -20,7 +20,7 @@ import java.util.Arrays;
  * @date 2019/1/20
  */
 
-public class SquaresOfASortedArray {
+public class Squares_of_a_Sorted_Array_977 {
     /**
      *  解决思路: 复制原数组,将数组中元素求绝对值,在求平方,继而排序
      * @param A 原数组

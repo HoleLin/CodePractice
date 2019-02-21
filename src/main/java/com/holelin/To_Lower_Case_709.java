@@ -3,8 +3,8 @@ package com.holelin;
 import java.util.Arrays;
 
 /**
- * ClassName: ToLowerCase
- * Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
+ * ClassName: To_Lower_Case_709
+ * Implement function To_Lower_Case_709() that has a string parameter str, and returns the same string in lowercase.
  * Example 1:
  * <p>
  * Input: "Hello"
@@ -23,7 +23,7 @@ import java.util.Arrays;
  * @date 2019/1/20
  */
 
-public class ToLowerCase {
+public class To_Lower_Case_709 {
     public static String toLowerCase(String str) {
         char[] chars = str.toCharArray();
         for (int i = 0; i < chars.length; i++) {
