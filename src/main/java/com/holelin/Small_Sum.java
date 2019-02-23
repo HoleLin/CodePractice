@@ -3,7 +3,7 @@ package com.holelin;
 import java.util.ArrayList;
 
 /**
- * ClassName: Small_And
+ * ClassName: Small_Sum
  * 小和问题
  *  问题描述：
  * 一个数列，其中一个数p，其左边所有比p小的数的和，是数p的小和。
@@ -15,7 +15,7 @@ import java.util.ArrayList;
  * @date 2019/2/21
  */
 
-public class Small_And {
+public class Small_Sum {
 	/**
 	 * 利用归并排序求小和问题
 	 * @param arr
