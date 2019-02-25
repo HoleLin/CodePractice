@@ -1,4 +1,4 @@
-package com.holelin;
+package com.holelin.others;
 
 /**
  * ClassName: Max_Difference
