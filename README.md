@@ -1,4 +1,4 @@
-# LeetCodePractice
+# CodePractice
 
 <h2>LeetCode</h2>
 
