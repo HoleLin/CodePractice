@@ -7,6 +7,8 @@
 * 929.Unique Email Addresses
 * 709.To Lower Case
 * 20.Valid Parentheses
+* 13.Roman to Integer
+* 9.Palindrome Number 
 
 <h2>Others</h2>
 
@@ -16,3 +18,5 @@
 * 仅用队列结构实现栈结构
 * 仅用栈结构实现队列
 * 猫狗队列
+* RandomPool
+

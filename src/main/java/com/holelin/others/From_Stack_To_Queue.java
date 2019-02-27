@@ -5,6 +5,7 @@ import java.util.Stack;
 /**
  * ClassName: From_Stack_To_Queue
  * 仅用栈结构实现队列
+ * 思路:
  * -- 利用两个栈pushStack和popStack,pushStack用于添加数据,popStack用于弹出数据;
  * -- 操作:将pushStack中的数据倒入popStack
  * -- 倒入条件

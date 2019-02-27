@@ -6,6 +6,7 @@ import java.util.Queue;
 /**
  * ClassName: From_Queue_To_Stack
  * 仅用队列结构实现栈结构
+ * 思路:
  * -- 利用两个Queue,
  * ---- 当调用push()时,调用queue.add()
  * ---- 当调用pop()时,将queue中的数据保留一个,其余加入help中,再poll queue中的元素(只有一个),最后交换queue和help的引用,返回之前queue.poll()的值
