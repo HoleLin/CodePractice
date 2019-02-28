@@ -9,7 +9,8 @@
 * 20.Valid Parentheses
 * 13.Roman to Integer
 * 9.Palindrome Number 
-
+* 21.Merge Two Sorted Lists
+* 26.Remove Duplicates from Sorted Array
 <h2>Others</h2>
 
 * 小和问题(暴力求解+归并排序方式求解)
