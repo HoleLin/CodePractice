@@ -11,6 +11,9 @@
 * 9.Palindrome Number 
 * 21.Merge Two Sorted Lists
 * 26.Remove Duplicates from Sorted Array
+* 27.Remove Element
+* 28.Implement strStr()
+
 <h2>Others</h2>
 
 * 小和问题(暴力求解+归并排序方式求解)
@@ -20,4 +23,6 @@
 * 仅用栈结构实现队列
 * 猫狗队列
 * RandomPool
+* 转圈打印矩阵
+* "之"形打印矩阵
 
