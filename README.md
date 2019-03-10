@@ -13,6 +13,7 @@
 * 26.Remove Duplicates from Sorted Array
 * 27.Remove Element
 * 28.Implement strStr()
+* 58.Length of Last Word
 
 <h2>Others</h2>
 
