@@ -125,6 +125,7 @@ public class SmallerEqualBigger {
 			next = head.next;
 			head.next = null;
 			if (head.value < pivot) {
+
 				if (sH == null) {
 					sH = head;
 					sT = head;
