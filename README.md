@@ -11,6 +11,10 @@
 * 9.Palindrome Number 
 * 21.Merge Two Sorted Lists
 * 26.Remove Duplicates from Sorted Array
+* 27.Remove Element
+* 28.Implement strStr()
+* 58.Length of Last Word
+
 <h2>Others</h2>
 
 * 小和问题(暴力求解+归并排序方式求解)
@@ -20,5 +24,10 @@
 * 仅用栈结构实现队列
 * 猫狗队列
 * RandomPool
+* 转圈打印矩阵
+* "之"形打印矩阵
+* 在行列都排好序的矩阵中找数
+* 打印有序链表的公共部分
+* 判断一个链表是否为回文结构
 * 将单向链表按某值划分成左边小,中间相等,右边大的形式
 
