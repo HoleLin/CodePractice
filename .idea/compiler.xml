@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CodePractice" />
         <module name="LeetCodePractice" />
+        <module name="CodePractice" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CodePractice" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

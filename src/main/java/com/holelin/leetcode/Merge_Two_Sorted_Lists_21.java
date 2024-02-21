@@ -1,5 +1,7 @@
 package com.holelin.leetcode;
 
+import com.holelin.ListNode;
+
 /**
  * ClassName: Merge_Two_Sorted_Lists_21
  * Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
@@ -13,15 +15,6 @@ package com.holelin.leetcode;
  * @version 1.0
  * @date 2019/2/27
  */
-
-class ListNode {
-	int val;
-	ListNode next;
-
-	ListNode(int x) {
-		val = x;
-	}
-}
 
 public class Merge_Two_Sorted_Lists_21 {
 	public static ListNode mergeTwoLists1(ListNode l1, ListNode l2) {
