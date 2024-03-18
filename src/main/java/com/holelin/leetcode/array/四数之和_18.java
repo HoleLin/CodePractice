@@ -1,4 +1,4 @@
-package com.holelin.leetcode;
+package com.holelin.leetcode.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
