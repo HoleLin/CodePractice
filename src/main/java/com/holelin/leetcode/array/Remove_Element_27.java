@@ -30,11 +30,12 @@ public class Remove_Element_27 {
     /**
      * 快慢指针
      * exmple: nums = [3, 2, 2, 3],  val = 3
-     *       fastIndex=0,slowIndex=0
-     *       fastIndex=1,slowIndex=1
-     *       fastIndex=2,slowIndex=2
-     *       fastIndex=3,slowIndex=2
-     *       last slowIndex=2
+     * fastIndex=0,slowIndex=0
+     * fastIndex=1,slowIndex=1
+     * fastIndex=2,slowIndex=2
+     * fastIndex=3,slowIndex=2
+     * last slowIndex=2
+     *
      * @param nums
      * @param val
      * @return
@@ -49,6 +50,27 @@ public class Remove_Element_27 {
         return slowIndex;
     }
 
+    public static int removeDuplicates2(int[] nums, int val) {
+        int leftIndex = 0;
+        int rightIndex = nums.length - 1;
+        while (leftIndex <= rightIndex) {
+
+            // 找左边等于val的元素
+            while (leftIndex <= rightIndex && nums[leftIndex] != val) {
+                ++leftIndex;
+            }
+            // 找右边不等于val的元素
+            while (leftIndex <= rightIndex && nums[rightIndex] == val) {
+                --rightIndex;
+            }
+            // 将右边不等于val的元素覆盖左边等于val元素
+            if (leftIndex < rightIndex) {
+                nums[leftIndex++] = nums[rightIndex--];
+            }
+        }
+        // leftIndex一定指向了最终数组末尾的下一个元素
+        return leftIndex;
+    }
 
     public static void main(String[] args) {
         int[] nums1 = {3, 2, 2, 3};

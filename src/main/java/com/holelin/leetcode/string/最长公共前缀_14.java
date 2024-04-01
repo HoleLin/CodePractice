@@ -1,4 +1,4 @@
-package com.holelin.leetcode;
+package com.holelin.leetcode.string;
 
 public class 最长公共前缀_14 {
     public static String longestCommonPrefix(String[] strs) {

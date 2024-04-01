@@ -1,4 +1,4 @@
-package com.holelin.leetcode;
+package com.holelin.leetcode.string;
 
 /**
  * ClassName: Implement_strStr_28

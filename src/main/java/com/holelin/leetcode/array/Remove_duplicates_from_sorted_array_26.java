@@ -16,7 +16,7 @@ public class Remove_duplicates_from_sorted_array_26 {
         }
         int slowIndex = 0;
         int target = nums[slowIndex];
-        for (int fastIndex = 0; fastIndex <=nums.length - 1; fastIndex++) {
+        for (int fastIndex = 0; fastIndex <= nums.length - 1; fastIndex++) {
             if (target != nums[fastIndex]) {
                 nums[++slowIndex] = nums[fastIndex];
                 target = nums[slowIndex];
@@ -26,7 +26,7 @@ public class Remove_duplicates_from_sorted_array_26 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4,5,6,6,6,6};
+        int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4, 5, 6, 6, 6, 6};
         System.out.println(removeDuplicates(nums));
     }
 }

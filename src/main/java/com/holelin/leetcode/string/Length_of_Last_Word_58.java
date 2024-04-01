@@ -1,4 +1,4 @@
-package com.holelin.leetcode;
+package com.holelin.leetcode.string;
 
 /**
  * ClassName: Length_of_Last_Word_58
